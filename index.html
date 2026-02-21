@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis de Paradigmas de Software | UMG</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <article>
+        <header class="main-header">
+            <span class="badge">Análisis de Sistemas I</span>
+            <h1>Estrategias de Ciclo de Vida: Rigidez vs. Adaptabilidad</h1>
+            <p class="metadata">
+                Por: <strong>Rodrigo Vidal Guzmán Díaz</strong> | Facultad de Ingeniería, UMG <br>
+                Febrero 2026
+            </p>
+        </header>
+
+        <section class="intro">
+            <p>La selección de un modelo de ciclo de vida de desarrollo de software (SDLC) no es una decisión estética, sino una determinación crítica basada en la estabilidad de los requerimientos y la tolerancia al riesgo financiero y operativo.</p>
+        </section>
+
+        <section class="strategy-section">
+            <div class="card">
+                <h2>I. Modelo en Cascada (Waterfall)</h2>
+                <p>El modelo en cascada representa el paradigma tradicional de la ingeniería de software, caracterizado por un flujo secuencial y unidireccional. Cada fase debe producir un entregable formal que sirve como insumo inmutable para la etapa subsiguiente.</p>
+                
+                <h3>Criterios de Aplicación</h3>
+                <ul>
+                    <li>Requerimientos técnicos y funcionales estables y bien definidos desde el origen.</li>
+                    <li>Sistemas que exigen un alto grado de cumplimiento normativo o auditorías legales estrictas.</li>
+                    <li>Proyectos de presupuesto cerrado con baja tolerancia a la desviación del cronograma.</li>
+                </ul>
+
+                <div class="alert alert-danger">
+                    <strong>Riesgo Técnico:</strong> El costo de corregir un error detectado en la fase de pruebas puede ser hasta 100 veces superior que si se detectara en la fase de análisis.
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>II. Modelo de Prototipado</h2>
+                <p>Esta estrategia prioriza la validación temprana de conceptos. Se fundamenta en la iteración sobre modelos funcionales o visuales para mitigar la ambigüedad en los requerimientos iniciales.</p>
+                
+                <h3>Criterios de Aplicación</h3>
+                <ul>
+                    <li>Escenarios de alta incertidumbre donde el flujo de usuario no ha sido consolidado.</li>
+                    <li>Sistemas con una carga crítica de experiencia de usuario (UX/UI).</li>
+                    <li>Necesidad de feedback constante para el refinamiento de reglas de negocio.</li>
+                </ul>
+
+                <div class="alert alert-warning">
+                    <strong>Riesgo de Gestión:</strong> La visualización de un modelo interactivo nítido puede generar falsas expectativas en el cliente, induciendo a la confusión entre un prototipo desechable y un producto terminado.
+                </div>
+            </div>
+        </section>
+
+        <section class="comparison">
+            <h2>Matriz Comparativa</h2>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dimensión</th>
+                            <th>Cascada</th>
+                            <th>Prototipado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Flexibilidad ante cambios</td>
+                            <td>Nula / Muy Baja</td>
+                            <td>Alta</td>
+                        </tr>
+                        <tr>
+                            <td>Entregables Iniciales</td>
+                            <td>Documentación Técnica</td>
+                            <td>Modelos Interactivos (Figma)</td>
+                        </tr>
+                        <tr>
+                            <td>Involucramiento del Usuario</td>
+                            <td>Hitos específicos</td>
+                            <td>Ciclo Continuo</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="implementation">
+            <h2>Aplicación Práctica: Caso "Gestor de Tareas"</h2>
+            <p>En el desarrollo de mi <strong>Gestor de Tareas</strong>, la implementación del <strong>Prototipado</strong> resultó fundamental. La interactividad de los wireframes permitió identificar ineficiencias en la gestión de estados de las tareas antes de proceder a la codificación de la lógica de persistencia, reduciendo significativamente la deuda técnica potencial.</p>
+        </section>
+
+        <footer class="main-footer">
+            <p>Repositorio académico - Ingeniería en Sistemas de Información y Ciencias de la Computación</p>
+        </footer>
+    </article>
+</div>
+
+</body>
+</html>
