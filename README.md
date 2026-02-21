@@ -20,7 +20,7 @@ El objetivo de este proyecto es analizar la viabilidad técnica y financiera de 
 
 ## 🚀 Demo en Vivo
 Puedes visualizar el artículo desplegado aquí:
-**[Insertar_Link_de_tu_GitHub_Pages_Aquí]**
+**https://github.com/rodrigovidalg/articulo-analisis-sistemas/settings**
 
 ## 👤 Autor
 **Rodrigo Vidal Guzmán Díaz**
